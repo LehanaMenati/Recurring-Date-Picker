@@ -56,8 +56,9 @@ export function RecurrenceOptions() {
           </Label>
           <div className="grid grid-cols-2 gap-3">
             {recurrenceTypes.map((type) => (
-              const Icon = type.icon;
-              return (
+              {
+                const Icon = type.icon;
+                return (
               <Button
                 key={type.value}
                 variant="outline"
@@ -77,7 +78,8 @@ export function RecurrenceOptions() {
                   <div className="absolute inset-0 bg-white/20 animate-pulse"></div>
                 )}
               </Button>
-              );
+                );
+              }
             ))}
           </div>
         </div>
