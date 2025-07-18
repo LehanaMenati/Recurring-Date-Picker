@@ -51,7 +51,7 @@ export default function Home() {
             Create complex recurring patterns with our advanced date picker. 
             From simple daily repeats to sophisticated monthly patterns like "every second Tuesday" - 
             all with real-time preview and intuitive controls.
-          </p>
+          </h1>
         </div>
         
         <div className="relative animate-bounce-in" style={{ animationDelay: '0.8s' }}>
